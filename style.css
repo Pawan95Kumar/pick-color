@@ -1,0 +1,50 @@
+body {
+    background: #f1f5f9;
+}
+.wrapper {
+    width: 250px;
+    height: 100%;
+    text-align: center;
+    background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+}
+h2{
+    color: rgb(215, 229, 239);
+}
+.changeColorBtn {
+    width: 80px;
+    height: 80px;
+    outline: none;
+    border: none;
+    border-radius: 50%;
+    padding: 5px;
+    /* background: #c78fbe; */
+    cursor: pointer;
+    background-color: #FAACA8;
+    background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+    
+}
+button{
+    color: antiquewhite;
+    font-weight: 800;
+    font-size: 2em;
+}
+.colorGrid {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
+    margin-left: 30%;
+}
+.selectedColor {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.colorValue {
+    margin-left: 5px;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
